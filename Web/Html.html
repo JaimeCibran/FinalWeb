@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jaime Cibrán Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+    <body>
+      <header id="main_header">
+        <div id="burger">
+          <span></span>
+        </div>
+
+      <div class="container">
+
+      <a href="#" title="Logo"> <img src="Image/Logo.png" alt="Logo"></a>
+      <nav class="Deskop">
+        <ul>
+          <li> <a href="#About" title="About me" class="active">About me </a> </li>
+          <li> <a href="#Skills" title="Skills"  class="active">Skills </a> </li>
+          <li> <a href="#Project" title="Project" class="active"> Project</a> </li>
+          <li> <a href="#Contact" title="Contact me" class="active" >Contact me</a> </li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <main id="main_content">
+      <article class="hero" id="About">
+        <h1>
+        <span class="top"> Hi my name is </span>
+        <span class="middle"> Jaime Cibran</span>
+        <span class="Bottom">I am a Spanish Game Designer with strong skills with Unity.
+          I am a designer who has just finished university and I am looking to enjoy challenging projects from the concept to the final product.</span>
+        </h1>
+      </article>
+
+
+  <article class="skills" id="Skills">
+        <div class="wrap">
+   <div class="section-title wow fadeInUp">
+     <h1>My Skills</h1>
+     <span class="border"></span>
+   </div>
+   <div class="skills-container">
+     <article class="row">
+       <ul>
+         <li class="html">
+           <em>Unity</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="css">
+           <em>C#</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="php">
+           <em>Photoshop</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="mysql">
+           <em>Word</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+       </ul>
+     </article>
+     <article class="row">
+       <ul>
+         <li class="jquery">
+           <em>Ilustrator</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="javascript">
+           <em>Powerpoint</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="seo">
+           <em>Unreal</em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+         <li class="unix">
+           <em>Excel
+
+
+
+           </em>
+           <div>
+             <span class="animated fadeInLeft"></span>
+           </div>
+         </li>
+       </ul>
+     </article>
+   </div>
+
+ </div>
+  </article>
+
+<article class="Prototypes" id="Project">
+  <div class="Showcase wrap">
+    <div class="section-title1 wow fadeInUp">
+      <h1>Prototypes</h1>
+      <span class="border"></span>
+    </div>
+        <ul class="container">
+          <li>
+          <figure>
+            <a href="">Download</a>  <img src="Image/TheEyeoftheParty.jpg" alt="">
+          </figure>
+          <p class="description">The Eye of the Party</p>
+          <p>Duration: 2 days</p>
+          <p >One of my first prototypes, the objective is to eliminate the most suspicious character inside the party</p>
+        </li>
+        <li>
+        <figure>
+          <a href="https://color-spectrum.itch.io/color-spectrum">Download</a>
+          <img src="Image/ColorSpectrum.png" alt="">
+        </figure>
+        <p class="description">Color Spectrum</p>
+        <p>Duration: 6 month</p>
+        <p> My biggest project so far, it is a shooten'up where color is very important. The player must change color to survive the environment</p>
+      </li>
+
+
+
+        </ul>
+      </div>
+
+</article>
+<article class="Contact_us"id="Contact">
+  <div class="Container_text">
+    <h1 class="tittle "> Let´s talk! </h1>
+    <p>If you want to contact me to be the Game Designer in one of your projects, you can do it via email <a href="mailto:jaime.cibran1@gmail.com">jaime.cibran1@gmail.com</a> I will respond as quickly as possible. </p>
+    <hr>
+    <p> You can also contact me via social networks</p>
+    <div class="social_element">
+      <a href="#"> <img src="Image/facebook.png" alt="">  </a>
+      <a href="#"> <img src="Image/linkedin.png" alt="">  </a>
+      <a href="#"> <img src="Image/Twitter.png" alt="">  </a>
+    </div>
+
+  </div>
+</article>
+   </main>
+
+  </body>
+
+
+</html>
+
+<script type="text/javascript">
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+  });
+});
+</script>
+  <script src="burger.js"></script>
